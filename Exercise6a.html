@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tables</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=f3o8QdBYS_D4nWkxLt5Z9runc99kD9CCj1RFJNrHg3BcfodsTU2zTpyvDzwewW7jappfJQ3o5ShFdTaByZqRY4glpIACEZcrQ5-GxWQqGY0bWYN-zkGGhTbOjf_wsDEAmM2N0_lMu2xF3oiG5vSvEZJFcnc3ykx2JoWp6y3BqF9Bo-3QhUGZ6OiUji2iU17gz-ziRe8fI1x1cSEYUpy5WQtbZuKIW2P8Hj92Gwbb1-b81P_JGj7gnlIB-5-ni03F94gYa67fKF0-hbaHZn8_-878_TJ4gzriJ1L88KnCDwqoAzeqLW3yxu1NqLZ9cp-CYtTLIisDRd_S6mwSLmSQy0L0wsfzNZr2jzjv_ZylzYXyv3eNGxJc3K4mYrOYioCn3Xg1WC-lsYDze-F8WN4iPKtSMfqDWE3A6Dfay-sPZ1Zivfrqfm1AAkGnHwKrys13qj4ROwhWd37mkMyEih8xz54OeDdnQWk1YAnEqeK3qFEeJVtgXfG5KUqzjrAJxFNwwuKoiZcehTiSNTmVF14H6PqqK-41orD6lFP2QJChr774_uLyDPxJRZ81SMWSARr6a7T3_r3iQVn55tf3N8KD1yyF9GsN40tMotLx0VCFxUSTz4DygOeOg-UIVOVAfq74ikMlSnomsebRxRkeCpSujP7-Yfd7LRF369nMnFO6CaM" charset="UTF-8"></script><link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9jZG4uaW5zdC1mcy1zaW4tcHJvZC5pbnNjbG91ZGdhdGUubmV0LzU5MDQ4MDVkLTBjN2YtNGJkYS1iMTgzLWY4ODlmZjk3ZDZlZS9FeGVyY2lzZTZhLmh0bWw_dG9rZW49ZXlKaGJHY2lPaUpJVXpVeE1pSXNJblI1Y0NJNklrcFhWQ0lzSW10cFpDSTZJbU5rYmlKOS5leUp5WlhOdmRYSmpaU0k2SWk4MU9UQTBPREExWkMwd1l6ZG1MVFJpWkdFdFlqRTRNeTFtT0RnNVptWTVOMlEyWldVdlJYaGxjbU5wYzJVMllTNW9kRzFzSWl3aWRHVnVZVzUwSWpvaVkyRnVkbUZ6SWl3aWRYTmxjbDlwWkNJNklqRTROemcxTURBd01EQXdNREF3TnpNNU1TSXNJbWxoZENJNk1UWXhORFU1T0RZNU1pd2laWGh3SWpveE5qRTBOamcxTURreWZRLjBnUGFXc0VLRzJWYy05TFpLQk8wbjFnNGd3UktzMXdOUW9Iejl3N3daOFBucmpCdWJsbWs2dGMwaVM0M2RyZ1VQb1RULVhFMDhhMllPSXhhYmlxRWJBJmRvd25sb2FkPTEmY29udGVudF90eXBlPXRleHQlMmZodG1s"/><style>
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  margin-left:-5px;
+  margin-right:-5px;
+}
+  
+.column {
+  float: left;
+  width: 30%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#table2 {
+  border-collapse: separate;
+  border-spacing: 15px 50px;
+}
+body {
+  background-color: lightgray;
+}
+#table5 {
+  box-shadow: 10px 5px 5px red;
+}
+</style>
+</head>
+<body>
+<div class="row">
+  <div class="column">
+<table style="width:100px" border=”1px”>
+  <tr>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>E</td>
+    <td>F</td>
+  </tr>
+</table>
+<caption><b>Table A</b></caption>
+</div>
+ 
+ <div class="column">
+<table width="50" height="45" border="5px">
+        <tr>
+            <td>A</td>
+            <td>B</td>
+        </tr>
+        <tr>
+            <td>C</td>
+            <td>D</td>
+        </tr>
+        <tr>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+</table>
+<caption><b>Table B</b></caption>
+</div>
+ <div class="column">
+<table style="width:120px" border=”1px”>
+<tr>
+    <th colspan="3"> Title goes here</th>
+  </tr>
+  <tr>
+    <td>A</td>
+    <td>C</td>
+    <td>E</td>
+  </tr>
+  <tr>
+    <td>B</td>
+    <td>D</td>
+    <td>F</td>
+  </tr>
+</table>
+<caption><b>Table C</b></caption>
+</div>
+</div>
+<br>
+<table style="width:180px" border=”1px”>
+<tr>
+    <th rowspan="3"> Title goes here</th>
+    <td>A</td>
+    <td>B</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>E</td>
+    <td>F</td>
+  </tr>
+</table>
+<caption><b>Table D</b></caption>
+<div class="row">
+  <div class="column">
+<table style="width:350px" border=”1px”>
+<tr>
+    <th rowspan="3"> Title goes here</th>
+    <td height="100">A</td>
+    <td height="100">B</td>
+    <td height="100">C</td>
+  </tr>
+  <tr>
+    <td height="100">D</td>
+    <td height="100">E</td>
+    <td height="100">F</td>
+  </tr>
+</table>
+<caption><b>Table E</b></caption>
+</div>
+<div class="column">
+<table style="width:250px" border=”1px” id="table2">
+<tr>
+    <th rowspan="3"> Title goes here</th>
+    <td height="50">A</td>
+    <td height="50">B</td>
+    <td height="50">C</td>
+  </tr>
+  <tr>
+    <td height="50">D</td>
+    <td height="50">E</td>
+    <td height="50">F</td>
+  </tr>
+</table>
+<caption><b>Table F</b></caption>
+</div>
+<div class="column">
+<table style="width:150px" border=”1px”>
+<tr>
+    <th colspan="3"> Title goes here</th>
+    <td>A</td>
+    <td>B</td>
+  </tr>
+  <tr>
+    <td rowspan="3">C</th>
+    <td style="text-align:center">D</td>
+    <td style="text-align:center">E</td>
+    <td style="text-align:center">F</td>
+    <td style="text-align:center">G</td>
+  </tr>
+  <tr>
+    <td style="text-align:center">H</td>
+    <td colspan="2" style="text-align:center">I</td>
+    <td rowspan="2">J</th>
+  </tr>
+<tr>
+    <td style="text-align:center">K</td>
+    <td style="text-align:center">L</td>
+    <td style="text-align:center">M</td>
+</tr>
+<tr>
+    <td style="text-align:right">N</td>
+    <td colspan="4" style="text-align:center">O</td>
+  </tr>
+</table>
+<caption><b>Table G</b></caption>
+</div>
+</div>
